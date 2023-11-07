@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  .head  {
+           text-align: center;
+           font-size: 50px;
+           color: white;
+         }
+
+  .myDiv  {
+            text-align: left;
+            font-size: 30px;
+            color: white;
+ -webkit-animation: blinker1 1.0s infinite;
+ animation: blinker1 1.0s infinite;
+}
+
+-webkit-@keyframes blinker1 {  
+ 0% { opacity: 0; }
+}
+@keyframes blinker1 {  
+ 0% { opacity: 0; }
+}
+
+       }
+          }
+
+  .table1  {
+             border: 10px solid white;
+           }
+
+
+  .p1  {
+          font-size: 30px;
+          color:  white;
+       }
+
+  .blink1  {
+          font-size: 100px;
+          color:  red;
+ -webkit-animation: blinker1 1.0s infinite;
+ animation: blinker1 1.0s infinite;
+}
+
+-webkit-@keyframes blinker1 {  
+ 0% { opacity: 0; }
+}
+@keyframes blinker1 {  
+ 0% { opacity: 0; }
+}
+
+       }
+  </style>
+</head>
+
+<body bgcolor="black"> 
+
+
+
+<article>
+  <header class="head">
+    <h1>LOVELY CREATURES</h1>
+  </header>
+</article>
+
+
+<div class="myDiv">
+  <nav>
+    <a href="PHONE NUMBER.html">CONTACT US</a>
+  </nav>
+</div><br><br><br><br>
+
+
+
+
+
+
+
+
+
+<center>
+<div>
+  <script src="jquery-3.7.1.min.js"></script>
+    <section>
+    <img class="slides" src="2.jpg" style="width:600px">
+    <img class="slides" src="5.jpg" style="width:600px">
+    <img class="slides" src="7.jpg" style="width:600px">
+</section>
+
+<script type="text/javascript">
+    var index = 0;
+    change();
+
+    function change() {
+ var x = document.getElementsByClassName('slides');
+ for(var i = 0; i < x.length; i++) { 
+            x[i].style.display = "none"; 
+        }
+  index++;
+ if(index > x.length) { 
+            index = 1; 
+        }
+ x[index - 1].style.display = "block";
+ setTimeout(change, 3000);
+    }
+</script>
+
+</div><br><br><br><br>
+<center>
+
+
+
+
+
+
+
+
+
+
+<center>
+<table class="table1">
+
+    <tr>
+       <td>
+          <img src="3.jpg" width="820px">
+       </td>
+       <td>
+          <img src="4.jpg" width="820px" height="514">
+       </td>
+     </tr>
+
+</table>
+</center><br><br><br><br>
+
+<center>
+<img src="8.jpg" width="1400px" height="500px"><br>
+</center><br><br><br><br>
+
+
+<table>
+<tr>
+  <td>
+<img src="6.jpg" width="500px">
+  </td>
+  <td>
+    <p class="p1">Leopards are powerful big cats closely related to lions, tigers, and jaguars. They live in sub-Saharan Africa, northeast Africa, Central Asia, India, and China. However, many of their populations are endangered, especially outside of Africa.</p>
+  </td>
+</tr>
+</table><br><br><br><br>
+
+
+
+<center>
+  <footer>
+      <p class="blink1">DONT FORGET TO FOLLOW</p>
+  </footer>
+</center>
+
+
+</body>
+</html>
